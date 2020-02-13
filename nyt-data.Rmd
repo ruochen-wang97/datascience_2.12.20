@@ -1,12 +1,13 @@
 ---
 title: "nyt-data"
 output: html_document
+editor_options: 
+  chunk_output_type: console
 ---
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
 ```
-
 
 ```{r, message=FALSE, results='hide'}
 library(tidyverse)
